@@ -2,7 +2,8 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void contact(){
-
+        Contact p1 = new Contact("peter", "parker", "091-123-4567");
+        System.out.println(p1);
 
     }
     public static void box(){
@@ -18,8 +19,11 @@ public class Main {
         }
 
     }
+
+
     public static void main(String[] args) {
         contact();
+        System.out.println("-".repeat(20));
         box();
 
     }
