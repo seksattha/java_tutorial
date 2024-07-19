@@ -70,12 +70,15 @@ public class Main {
     }
 
 
+
+
     public static void main(String[] args) {
         contact();
         System.out.println("-".repeat(20));
         box();
         System.out.println("-".repeat(20));
         demo_localDate();
+        System.out.println("-".repeat(20));
 
     }
 }
