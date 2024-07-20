@@ -19,6 +19,7 @@ public class Person {
 
 
     public Person() {
+        System.out.println("Person constructor was called");
     }
 
     public String getFirstName() {

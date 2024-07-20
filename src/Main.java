@@ -81,6 +81,12 @@ public class Main {
 
     }
 
+    public static void demo_extend_constructor() {
+        Patient pa1 = new Patient();
+        Patient pa2 = new Patient("John", "Doe", "M", "Pete", 170f, 70f);
+
+    }
+
 
 
 
@@ -93,7 +99,8 @@ public class Main {
         System.out.println("-".repeat(20));
         demo_localDate();
         System.out.println("-".repeat(20));*/
-        demo_chainConstructor();
+//        demo_chainConstructor();
+        demo_extend_constructor();
 
 
     }
