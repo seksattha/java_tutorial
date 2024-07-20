@@ -96,6 +96,20 @@ public class Main {
         s1.setFaculty("Engineering");
         s1.setMajor("Power Electrical");
 
+        ExchangeStudent s2 = new ExchangeStudent();
+        s2.setFirstName("Jack");
+        s2.setLastName("Smith");
+        s2.setPartnerUniversity("ABC Tech");
+
+
+    }
+
+    public static void demo_overriding1() {
+        Member m1 = new Member("John", "Doe");
+        System.out.println(m1.toString());
+
+        PlatinumMember m2 = new PlatinumMember();
+        System.out.println("Silver " + m2.discount(5000));
     }
 
 
@@ -112,8 +126,8 @@ public class Main {
         System.out.println("-".repeat(20));*/
 //        demo_chainConstructor();
 //        demo_static_initializer();
-        demo_inheritance1();
-
+//        demo_inheritance1();
+        demo_overriding1();
 
 
     }
