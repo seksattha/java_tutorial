@@ -87,6 +87,11 @@ public class Main {
 
     }
 
+    public static void demo_static_initializer() {
+        Person p1 = new Person();
+        Person p2 = new Person();
+    }
+
 
 
 
@@ -100,7 +105,8 @@ public class Main {
         demo_localDate();
         System.out.println("-".repeat(20));*/
 //        demo_chainConstructor();
-        demo_extend_constructor();
+        demo_static_initializer();
+
 
 
     }
