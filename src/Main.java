@@ -70,24 +70,31 @@ public class Main {
     }
 
     public static void demo_chainConstructor() {
-        Person p1 = new Person();
-        p1.setFirstName("Peter");
-        p1.setLastName("Parker");
-        p1.setNickname("Pete");
-        p1.setGender("m");
+        Person p1 = new Person("PeTEr", "Parker", "Pete", "M");
+        Person p2 = new Person("JoHn", "Doe");
+        System.out.println(p1.getFirstName());
+        System.out.println(p2.getFirstName());
+//        p1.setFirstName("Peter");
+//        p1.setLastName("Parker");
+//        p1.setNickname("Pete");
+//        p1.setGender("m");
 
     }
 
 
 
 
+
+
     public static void main(String[] args) {
-        contact();
+        /*contact();
         System.out.println("-".repeat(20));
         box();
         System.out.println("-".repeat(20));
         demo_localDate();
-        System.out.println("-".repeat(20));
+        System.out.println("-".repeat(20));*/
+        demo_chainConstructor();
+
 
     }
 }
