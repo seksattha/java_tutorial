@@ -69,6 +69,15 @@ public class Main {
 
     }
 
+    public static void demo_chainConstructor() {
+        Person p1 = new Person();
+        p1.setFirstName("Peter");
+        p1.setLastName("Parker");
+        p1.setNickname("Pete");
+        p1.setGender("m");
+
+    }
+
 
 
 
