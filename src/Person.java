@@ -17,9 +17,14 @@ public class Person {
     }
 //    default constructor (parameter less constructor)
 
+    static {
+        System.out.println("Static initializer was called. ");
+    }
+
 
     public Person() {
-        System.out.println("Person constructor was called");
+
+        System.out.println("Person constructor from Person class was called");
     }
 
     public String getFirstName() {
