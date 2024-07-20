@@ -24,7 +24,6 @@ public class Main {
         }
 
     }
-
     public static void demo_localDate() {
         LocalDate today = LocalDate.now();
         System.out.println(today);
@@ -68,7 +67,6 @@ public class Main {
 
 
     }
-
     public static void demo_chainConstructor() {
         Person p1 = new Person("PeTEr", "Parker", "Pete", "M");
         Person p2 = new Person("JoHn", "Doe");
@@ -80,16 +78,24 @@ public class Main {
 //        p1.setGender("m");
 
     }
-
     public static void demo_extend_constructor() {
         Patient pa1 = new Patient();
         Patient pa2 = new Patient("John", "Doe", "M", "Pete", 170f, 70f);
 
     }
-
     public static void demo_static_initializer() {
         Person p1 = new Person();
         Person p2 = new Person();
+    }
+
+    public static void demo_inheritance1() {
+        Student s1 = new Student();
+        s1.setFirstName("John");
+        s1.setLastName("Doe");
+        s1.setBloodGroup("O");
+        s1.setFaculty("Engineering");
+        s1.setMajor("Power Electrical");
+
     }
 
 
@@ -105,7 +111,8 @@ public class Main {
         demo_localDate();
         System.out.println("-".repeat(20));*/
 //        demo_chainConstructor();
-        demo_static_initializer();
+//        demo_static_initializer();
+        demo_inheritance1();
 
 
 

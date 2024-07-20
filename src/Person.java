@@ -1,5 +1,7 @@
 public class Person {
     private String firstName, lastName, nickname, gender;
+    private String bloodGroup;
+
 
     public Person(String firstName, String lastName, String nickname, String gender) {
         this.firstName = firstName.trim().substring(0,1).toUpperCase() +
@@ -57,5 +59,14 @@ public class Person {
 
     public void setGender(String gender) {
         this.gender = gender;
+
+    }
+
+    public String getBloodGroup() {
+        return bloodGroup;
+    }
+
+    public void setBloodGroup(String bloodGroup) {
+        this.bloodGroup = bloodGroup;
     }
 }
